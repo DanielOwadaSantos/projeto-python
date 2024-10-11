@@ -1,0 +1,7 @@
+a=input('Dia = ')
+b=input('Mes = ')
+c=input('Ano = ')
+print(a)
+print(b)
+print(c)
+print('\033[4;30;47mVocê nasceu no dia {}, do mes {}, do ano de {}'.format(a,b,c))

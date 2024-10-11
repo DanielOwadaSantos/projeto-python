@@ -1,0 +1,31 @@
+'''a=int(input('Digite um número: '))
+b=int(input('Digite outro número: '))
+c=int(input('Digite outro número: '))
+if a>b and a>c:
+    print('{} é o maior número dos três.'.format(a))
+if b>a and b>c:
+    print('{} é o maior número dos três.'.format(b))
+if c>a and c>b:
+    print('{} é o maior número dos três.'.format(c))
+if a<b and a<c:
+    print('{} é o menor número dos três.'.format(a))
+if b<a and b<c:
+    print('{} é o menor número dos três.'.format(b))
+if c<a and c<b:
+    print('{} é o menor número dos três.'.format(c))'''
+
+a=int(input('Digite um número: '))
+b=int(input('Digite outro número: '))
+c=int(input('Digite mais um número: '))
+menor=a
+if b<a and b<c:
+    menor=b
+if c<a and c<b:
+    menor=c
+maior=a
+if b>a and b>c:
+    maior=b
+if c>a and c>b:
+    maior=c
+print('O menor número dos três é {}.'.format(menor))
+print('O maior número dos três é {}.'.format(maior))
